@@ -44,9 +44,7 @@ const config = {
     'Git',
     'Docker',
     'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'CSS'
   ],
   experiences: [
     {
