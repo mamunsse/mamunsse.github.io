@@ -30,36 +30,62 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1LhEM0jjQQVR4UGpYnHhlZ-YvkVuUj4Hu/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1gUA6LJpCbyabhKdsTK-fDAHz6rzXh3hJ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'OOP',
+    'Django',
+    'Django REST Framework',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
+    'ReactJS',
+    'Redux',
+    'JQuery',
+    'AJAX',
+    'PHP',
     'PHPUnit',
-    'CSS'
+    'CodeIgniter',
+    'Laravel',
+    'MySQL',
+    'SQLite',
+    'SQL Server',
+    'HTML5',
+    'CSS3',
+    'Bootstrap',
+    'MUI',
+    'GitHub Actions',
+    'Docker',
+    'Jira',
+    'Confluence',
+    'Agile',
+    'Scrum',
+    'Teamwork',
+    'Software Architecture',
+    'RESTful APIs',
+    'Data Structures',
+    'Algorithms',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'EICe Aachen GmbH',
+      position: 'Software Developer - Part-time',
+      from: 'March 2020',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.center-iba.com/en/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Fraunhofer Institute for Production Technology',
+      position: 'Working Student - Part-time',
+      from: 'September 2021',
+      to: 'March 2022',
+      companyLink: 'https://www.ipt.fraunhofer.de/',
+    },
+    {
+      company: 'Apsis Solutions',
+      position: 'Software Engineer - Full-time',
+      from: 'November 2016',
+      to: 'October 2019',
+      companyLink: 'https://apsissolutions.com/',
     },
   ],
   /* certifications: [
@@ -72,35 +98,62 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'RWTH Aachen University',
+      degree: 'Master, Software Systems Engineering ',
+      from: '2019',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Daffodil International University',
+      degree: 'Bachelor, Software Engineering',
       from: '2012',
-      to: '2014',
+      to: '2016',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'CAASP - Computer Aided Assembly Sequence Planning',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Developed next-generation computer-aided assembly sequence planning app for electronic appliance manufacturers. Collaboratively worked with team members from a Hong-Kong based Artificial Intelligence and Robotics company called FLAIR',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
     {
-      title: 'Project Name',
+      title: 'Parcel Booking System',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Developed parcel management system for SR group which provides courier services all over Bangladesh. This system contains different modules like parcel booking process, Accounts & finance, Admin, Master Entry. Particularly SR parcel booking process and Accounts and finance module has been developed by me and I was the core responsible person for this project.'
+        ,
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
+    {
+      title: 'Eastern Motors Ltd (EML) ERP Solution',
+      description:
+        'The purpose of the Wings Software is to provide the customer with an effective way to manage their current inventory. System provides an easy to purchase process, Sales, tracking, Accounts and provides a history of previous inventory.'
+        ,
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+    {
+      title: 'Bangladesh Open University ERP Solution',
+      description:
+        'This university ERP solution provides lots of different functionality. Bangladesh open university have lots of campuses all over Bangladesh. From student registration to result publish system users are able to do everything using this system. I have integrated online payment, Re-examination, Re-scrutiny features in this system.'
+        ,
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+    {
+      title: 'Discovery Tours & Travel',
+      description:
+        'Tours & Travel Agency Management solution. As part of continuous development of the system, I have integrated accounts module in this system.'
+        ,
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://example.com',
+    },
+
+    
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
@@ -177,11 +230,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 };
 
 export default config;
